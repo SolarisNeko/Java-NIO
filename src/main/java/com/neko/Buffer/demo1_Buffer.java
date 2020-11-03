@@ -25,6 +25,14 @@ import java.nio.ByteBuffer;
  * 3、Buffer 读写模式
  *  - 写模式（default）
  *  - 读模式 : 使用 *Buffer.flip() 进行切换（实际上将 position 刷新到 0）
+ *
+ * 4、mark 标记
+ *  - 表示当前 position 的位置。可以通过 reset() 恢复到 mark 的位置
+ *      0 <= mark <= position <= limit <= capacity
+ *
+ * 5、【直接 Buffer】 & 【非直接 Buffer】
+ *  5-1、非直接 Buffer = 通过 .allocate(int size) 分配【非直接缓冲区】, 将 Buffer 建立在 JVM Memory 中（JVM 调控）
+ *  5-2、直接 Buffer = 通过 allocateDirect() 分配【直接缓冲区】, 将 Buffer 建立在 OS Memory 中（系统直接调控，效率更高）
  * */
 public class demo1_Buffer {
     public static void main(String[] args) {
@@ -55,9 +63,10 @@ public class demo1_Buffer {
         System.out.println(byteBuffer.capacity());
 
 
-        // 4、缓存读 = 利用 .get(T[] data) 获取 Buffer 中的 data
+        // 4、获取 data = 将读取的 data 读到 byte[] 里面
         byte[] bytes = new byte[byteBuffer.limit()];
         byteBuffer.get(bytes);
+
         System.out.println("-------------- .get(T[] data) 后 ----------------");
         System.out.println(new String(bytes, 0, bytes.length));
 
@@ -78,28 +87,6 @@ public class demo1_Buffer {
         System.out.println(byteBuffer.capacity());
 
         System.out.println((char) byteBuffer.get()); // 还是能获取到 data
-
-        // 7、Field mark + .reset() 
-        ByteBuffer byteBuffer_mark = ByteBuffer.allocate(1024);
-
-        String data_test = "abcsdf";
-        byteBuffer_mark.put(data_test.getBytes());
-
-        byteBuffer_mark.flip(); // 切换成【读模式】
-        byte[] dst = new byte[byteBuffer_mark.limit()];
-        byteBuffer_mark.get(dst, 0, dst.length);
-        System.out.println(new String(dst, 0, dst.length));
-
-        // .mark() 标记位置
-        byteBuffer_mark.mark();
-
-        byteBuffer_mark.get(dst, 2, 2);
-        System.out.println(new String(dst, 2,2));
-        System.out.println(byteBuffer_mark.position());
-
-        // .reset() : 恢复到 mark 位置
-        byteBuffer_mark.reset();
-        System.out.println(byteBuffer_mark.position());
 
     }
 }
