@@ -1,4 +1,4 @@
-package com.neko.Buffer;
+package com.neko.L1_Buffer;
 
 import java.nio.ByteBuffer;
 
@@ -29,9 +29,9 @@ public class demo2_Buffer_4Field {
         byteBuffer.reset();
         System.out.println(byteBuffer.position());
 
-        // 7-3、 判断 Buffer 中, 是否还有【剩余数据】
+        // 7-3、 判断 L1_Buffer 中, 是否还有【剩余数据】
         if (byteBuffer.hasRemaining()) {
-            // 获取 Buffer 中【可以操作的 data 的数量】
+            // 获取 L1_Buffer 中【可以操作的 data 的数量】
             System.out.println(byteBuffer.remaining());
         }
     }

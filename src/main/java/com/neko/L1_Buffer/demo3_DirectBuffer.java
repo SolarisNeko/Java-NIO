@@ -1,4 +1,4 @@
-package com.neko.Buffer;
+package com.neko.L1_Buffer;
 
 import java.nio.ByteBuffer;
 
