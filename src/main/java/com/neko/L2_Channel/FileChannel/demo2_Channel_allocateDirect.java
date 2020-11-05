@@ -1,4 +1,4 @@
-package com.neko.L2_Channel;
+package com.neko.L2_Channel.FileChannel;
 
 import java.io.File;
 import java.io.FileInputStream;

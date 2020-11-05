@@ -1,4 +1,4 @@
-package com.neko.L2_Channel;
+package com.neko.L2_Channel.FileChannel;
 
 import java.io.IOException;
 import java.nio.channels.FileChannel;
@@ -37,9 +37,10 @@ import java.nio.file.StandardOpenOption;
  *
  * @author SolarisNeko 11/3/2020
  */
+// 4、L2_Channel 之间的 data 传输 (直接缓冲区）
 public class demo4_Channel_Transfer {
     public static void main(String[] args) throws IOException {
-        // 4、L2_Channel 之间的 data 传输 (直接缓冲区）
+
         // 1、构建 I/O L2_Channel
         FileChannel inputChannel = FileChannel.open(Paths.get("H:\\", "Image_Output\\test.jpg"), StandardOpenOption.READ);
         FileChannel outputChannel = FileChannel.open(Paths.get("H:\\", "Image_Output\\test_copy.jpg"), StandardOpenOption.READ, StandardOpenOption.WRITE, StandardOpenOption.CREATE);
@@ -50,7 +51,6 @@ public class demo4_Channel_Transfer {
 
         inputChannel.close();
         outputChannel.close();
+
     }
-
-
 }

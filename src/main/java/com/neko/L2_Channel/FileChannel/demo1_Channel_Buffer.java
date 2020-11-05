@@ -1,4 +1,4 @@
-package com.neko.L2_Channel;
+package com.neko.L2_Channel.FileChannel;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,7 +16,7 @@ import java.nio.channels.FileChannel;
  * ps：
  *  L2_Channel 本身不存储 data, 因此需要配合 L1_Buffer 进行传输。
  *
- * 2、L2_Channel 的【主要实现类】
+ * 2、NIO Channel 的【主要实现类】
  *   java.nio.channels.L2_Channel 接口:
  *      |-- FileChannel : 操作本地文件传输。
  *      |-- SocketChannel : 用于 TCP Client
@@ -111,5 +111,4 @@ public class demo1_Channel_Buffer {
 
         }
     }
-
 }

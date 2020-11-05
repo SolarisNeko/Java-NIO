@@ -1,4 +1,4 @@
-package com.neko.L2_Channel;
+package com.neko.L2_Channel.FileChannel;
 
 import java.io.IOException;
 import java.nio.MappedByteBuffer;
@@ -72,6 +72,5 @@ public class demo3_Channel_MappedByteBuffer {
         output_Channel.close();
 
     }
-
 
 }

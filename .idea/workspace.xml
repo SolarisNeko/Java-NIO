@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17631779-b7ed-42b5-9f62-da959af04abc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Buffer/demo1_Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo1_Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Buffer/demo2_Buffer_4Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo2_Buffer_4Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Buffer/demo3_DirectBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo3_DirectBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Channel/demo1_Channel_Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo1_Channel_Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Channel/demo2_Channel_allocateDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo2_Channel_allocateDirect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Channel/demo3_Channel_MappedByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo3_Channel_MappedByteBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Channel/demo4_Channel_Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo4_Channel_Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/Channel/summary/demo5_Channel_Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/summary/demo5_Channel_Summary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo2_Channel_Buffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo3_Channel_Buffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo4_Channel_Buffer.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo5_Scatter_Gather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo6_Charset_Encoder_Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_BIO_Channel_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_BIO_Channel_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO_TCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo1_Channel_Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo1_Channel_Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo2_Channel_allocateDirect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo2_Channel_allocateDirect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo3_Channel_MappedByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo3_Channel_MappedByteBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo4_Channel_Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo4_Channel_Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/summary/demo5_Channel_Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/summary/demo5_Channel_Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Buffer/demo1_Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Buffer/demo2_Buffer_4Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Buffer/demo3_DirectBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo1_Channel_Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo2_Channel_allocateDirect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo3_Channel_MappedByteBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neko/Channel/demo4_Channel_Transfer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,15 +38,18 @@
     <session id="-937815863">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="19" />
           <entry key="jpg" value="2" />
           <entry key="md" value="2" />
         </counts>
@@ -48,20 +57,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="19" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="63" />
-          <entry key="java" value="4215" />
+          <entry key="dummy" value="114" />
+          <entry key="java" value="10534" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4215" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="JAVA" value="10534" />
+          <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
     </session>
@@ -69,37 +78,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo3_Channel_MappedByteBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="40" selection-start-line="40" selection-end-line="75" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo4_Channel_Transfer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/summary/demo5_Channel_Summary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo5_Scatter_Gather.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo1_Buffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="47" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo3_DirectBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo1_Channel_Buffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,55 +117,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo2_Channel_allocateDirect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo6_Charset_Encoder_Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo3_Channel_MappedByteBuffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_BIO_Channel_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="350">
+              <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo4_Channel_Transfer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_BIO_Channel_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="102">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/summary/demo5_Channel_Summary.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO_TCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/KusoNL_Programming_Space/Program_Language_Version/JDK1.8/src.zip!/java/nio/file/Paths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L1_Buffer/demo2_Buffer_4Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="282">
+              <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +191,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/neko/Channel/demo4_Channel_Transfer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neko/Channel/summary/demo5_Channel_Summary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/summary/demo5_Channel_Summary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo5_Scatter_Gather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo6_Charset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo4_Channel_Transfer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo3_Channel_MappedByteBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo6_Charset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo6_Charset_Encoder_Decoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/demo1_NIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_BlockingNIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_BlockingNIO_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo1_Channel_Buffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_Blocking_NIO_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/NIO_Demo/L3_NIO_Basic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/NIO_Demo/L3_NIO_Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/NIO_Demo/L3_NIO_Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO_Basic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_Blocking_NIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_BIO_Channel_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_BIO_Channel_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO_TCP.java" />
       </list>
     </option>
   </component>
@@ -218,10 +238,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="94" />
-    <option name="width" value="1422" />
-    <option name="height" value="879" />
+    <option name="x" value="549" />
+    <option name="y" value="46" />
+    <option name="width" value="1279" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,8 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,6 +286,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="neko" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-NIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-NIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neko" type="462c0819:PsiDirectoryNode" />
+              <item name="L2_Channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-NIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-NIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="neko" type="462c0819:PsiDirectoryNode" />
+              <item name="L2_Channel" type="462c0819:PsiDirectoryNode" />
+              <item name="SocketChannel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,7 +314,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604426020345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604560657225" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -288,9 +327,11 @@
       <recent name="E:\Java_Project\Java_Lang_Repo\Java-NIO\src\main\java\com\neko\Channel\summary" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neko.L2_Channel.SocketChannel.NIO_Demo" />
       <recent name="com.neko.Channel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java_Project\Java_Lang_Repo\Java-NIO\src\main\java\com\neko\L2_Channel\SocketChannel" />
       <recent name="E:\Java_Project\Java_Lang_Repo\Java-NIO\src\main\java\com\neko\Channel" />
       <recent name="E:\Java_Project\Java_Lang_Repo\Java-NIO\README" />
       <recent name="E:\Java_Project\Java_Lang_Repo\Java-NIO\src\main\java\com\neko" />
@@ -308,13 +349,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.demo1_Channel_Buffer">
-    <configuration name="demo1_Channel_Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.demo1_Channel_Buffer" />
+  <component name="RunManager" selected="Application.L3_NIO_Client">
+    <configuration name="L3_NIO_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.SocketChannel.NIO_Demo.L3_NIO_Client" />
       <module name="Java-NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neko.L2_Channel.*" />
+          <option name="PATTERN" value="com.neko.L2_Channel.SocketChannel.NIO_Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,30 +363,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo1_Buffer.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L3_NIO_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.SocketChannel.NIO_Demo.L3_NIO_Server" />
       <module name="Java-NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neko.L1_Buffer.*" />
+          <option name="PATTERN" value="com.neko.L2_Channel.SocketChannel.NIO_Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.neko.L1_Buffer" />
-      <option name="MAIN_CLASS_NAME" value="com.neko.L1_Buffer.demo1_Buffer" />
-      <option name="METHOD_NAME" value="test02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L2_BIO_Channel_2.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neko.L2_Channel.SocketChannel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neko.L2_Channel.SocketChannel" />
+      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.SocketChannel.L2_BIO_Channel_2" />
+      <option name="METHOD_NAME" value="client" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L3_NIO_TCP.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neko.L2_Channel.SocketChannel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neko.L2_Channel.SocketChannel" />
+      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.SocketChannel.L3_NIO_TCP" />
+      <option name="METHOD_NAME" value="client" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L3_NIO_TCP.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neko.L2_Channel.SocketChannel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neko.L2_Channel.SocketChannel" />
+      <option name="MAIN_CLASS_NAME" value="com.neko.L2_Channel.SocketChannel.L3_NIO_TCP" />
+      <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.demo1_Buffer.test02" />
-      <item itemvalue="Application.demo1_Channel_Buffer" />
+      <item itemvalue="JUnit.L2_BIO_Channel_2.client" />
+      <item itemvalue="JUnit.L3_NIO_TCP.server" />
+      <item itemvalue="JUnit.L3_NIO_TCP.client" />
+      <item itemvalue="Application.L3_NIO_Server" />
+      <item itemvalue="Application.L3_NIO_Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo1_Channel_Buffer" />
-        <item itemvalue="JUnit.demo1_Buffer.test02" />
+        <item itemvalue="Application.L3_NIO_Client" />
+        <item itemvalue="Application.L3_NIO_Server" />
+        <item itemvalue="JUnit.L3_NIO_TCP.client" />
+        <item itemvalue="JUnit.L3_NIO_TCP.server" />
+        <item itemvalue="JUnit.L2_BIO_Channel_2.client" />
       </list>
     </recent_temporary>
   </component>
@@ -360,29 +452,54 @@
       <option name="presentableId" value="Default" />
       <updated>1604405866654</updated>
       <workItem from="1604405868437" duration="14454000" />
-      <workItem from="1604426081950" duration="30000" />
+      <workItem from="1604426081950" duration="77000" />
+      <workItem from="1604459581832" duration="19750000" />
+      <workItem from="1604549912804" duration="1388000" />
+      <workItem from="1604551486607" duration="6461000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="demo1_Buffer_test02 - 2020.11.03 at 20h 33m 09s.xml">
-      <configuration name="demo1_Buffer.test02" configurationId="JUnit" />
+    <history-entry file="L3_NIO_Basic_client - 2020.11.05 at 12h 40m 41s.xml">
+      <configuration name="L3_NIO_Basic.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demo1_Buffer_test02 - 2020.11.03 at 20h 33m 34s.xml">
-      <configuration name="demo1_Buffer.test02" configurationId="JUnit" />
+    <history-entry file="L3_NIO_Basic_server - 2020.11.05 at 12h 43m 56s.xml">
+      <configuration name="L3_NIO_Basic.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demo1_Buffer_test02 - 2020.11.03 at 20h 33m 48s.xml">
-      <configuration name="demo1_Buffer.test02" configurationId="JUnit" />
+    <history-entry file="L3_NIO_Basic_client - 2020.11.05 at 12h 43m 56s.xml">
+      <configuration name="L3_NIO_Basic.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_server - 2020.11.05 at 12h 45m 26s.xml">
+      <configuration name="L3_NIO_Basic.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_client - 2020.11.05 at 12h 45m 49s.xml">
+      <configuration name="L3_NIO_Basic.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_server - 2020.11.05 at 12h 45m 56s.xml">
+      <configuration name="L3_NIO_Basic.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_client - 2020.11.05 at 12h 47m 02s.xml">
+      <configuration name="L3_NIO_Basic.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_server - 2020.11.05 at 12h 47m 00s.xml">
+      <configuration name="L3_NIO_Basic.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_client - 2020.11.05 at 12h 50m 23s.xml">
+      <configuration name="L3_NIO_Basic.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="L3_NIO_Basic_server - 2020.11.05 at 12h 50m 11s.xml">
+      <configuration name="L3_NIO_Basic.server" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14484000" />
+    <option name="totallyTimeSpent" value="42130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="94" width="1422" height="879" extended-state="0" />
+    <frame x="549" y="46" width="1279" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20631425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.32157508" />
+      <window_info id="Structure" order="1" sideWeight="0.5020747" side_tool="true" weight="0.31173092" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -393,7 +510,7 @@
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49929875" weight="0.32866243" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49948508" weight="0.32777777" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49948508" visible="true" weight="0.32775453" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -401,7 +518,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3592233" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35983264" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50070125" side_tool="true" weight="0.32866243" />
       <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
@@ -450,37 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo1_Channel_Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo2_Channel_allocateDirect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo3_Channel_MappedByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/demo4_Channel_Transfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/KusoNL_Programming_Space/Program_Language_Version/JDK1.8/src.zip!/java/nio/file/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -495,10 +581,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/summary/demo5_Channel_Summary.java">
+    <entry file="jar://E:/KusoNL_Programming_Space/Program_Language_Version/JDK1.8/src.zip!/java/util/SortedMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/demo1_NIO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo1_Channel_Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo2_Channel_allocateDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" selection-start-line="42" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo3_Channel_MappedByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" selection-start-line="40" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo4_Channel_Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/summary/demo5_Channel_Summary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo5_Scatter_Gather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/FileChannel/demo6_Charset_Encoder_Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/NIO_Demo/L3_NIO_Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/NIO_Demo/L3_NIO_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L2_BIO_Channel_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L1_BIO_Channel_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neko/L2_Channel/SocketChannel/L3_NIO_TCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
