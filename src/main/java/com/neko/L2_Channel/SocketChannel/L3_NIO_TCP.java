@@ -44,14 +44,15 @@ public class L3_NIO_TCP {
         // 4、输入 data + 存入 Buffer, 让 Channel 写出 buffer
         Scanner scanner = new Scanner(System.in);
         System.out.println("输入你要发送的内容: ");
-        while (scanner.hasNext()) {
 
+        while (scanner.hasNext()) {
+            // 获取输入
             String next = scanner.next();
-            // 5、Channel 写出 Buffer
+            // 5、将 data 放入 Buffer
             buffer.put( (new Date().toString() + "\n" + next).getBytes());
 
             buffer.flip();
-            socketChannel.write(buffer);
+            socketChannel.write(buffer); // 6、Channel 写出 Buffer
             buffer.clear();
 
             System.out.println("输入你要发送的内容: ");
